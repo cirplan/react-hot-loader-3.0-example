@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node ./build/dev.server.js",
     "build:dev": "cross-env NODE_ENV=development webpack --config ./build/webpack.dev.config.js",
-    "server": "babel-node ./server.js"
+    "server": "node ./server.js"
   },
   "keywords": [
     "webpack",
